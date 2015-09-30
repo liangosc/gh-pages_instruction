@@ -1,16 +1,28 @@
 # How to view your html output using gh-pages branch in your github
 
+I am sure there are many ways to do it, but this is how I did it.
+
 ## Preparation
-1, make a repo if you haven't;  
+1, make a repo if you haven't;
+
 2, go to your local directory, and clone the repo you just made, using the following command:
 ```
 git init
 git clone http://github.com/yourUserName/reponame.git
 ```
-3, put your files (ipynb, Rmd... don't forget the html file you generated) to your local directory.
+
+3, put your files (ipynb, Rmd... don't forget the html file you generated) to your local directory, and add/commit/push them to your GitHub repo:
+```
+git add -A
+git commit -m 'your message here'
+git push
+```
 
 ## Make a gh-pages branch
-0, in your command line window, go to your local git repo directory.  
+(for this section, I am assuming your files are arealy pushed to your GitHub repo)
+
+0, in your command line window, go to your local git repo directory.
+
 1, create the gh-pages branch by using:
 ```
 git checkout -b gh-pages
