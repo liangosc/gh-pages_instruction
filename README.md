@@ -1,6 +1,11 @@
-# How to view your html output using gh-pages branch in your github
+# How to view your html output using gh-pages branch in your GitHub
 
-I am sure there are many ways to do it, but this is how I did it.
+## Reason
+1, When you click a html file you uploaded to your repo, you'll see only html code, unlike ipynb or Rmd files.
+
+2, Be able to host your own website on github.io, for your projects, or even yourself.
+
+3, ['Free']*3, or rep('Free', 3)
 
 ## Preparation
 1, make a repo if you haven't;
@@ -19,7 +24,7 @@ git push
 ```
 
 ## Make a gh-pages branch
-(for this section, I am assuming your files are arealy pushed to your GitHub repo)
+(for this section, I am assuming your files are already pushed to your GitHub repo)
 
 0, in your command line window, go to your local git repo directory.
 
@@ -51,7 +56,7 @@ git add myresult.ipynb myresult.html
 git commit -m "MESSAGE"
 ```
 
-2, swich to gp-pages branch:
+2, switch to gp-pages branch:
 ```
 git checkout gh-pages
 ```
@@ -71,3 +76,9 @@ git push origin master
 git push origin gh-pages
 ```
 Now you should be able to see the updated html page. If not, wait for a few minutes.
+
+
+## Official instruction:
+https://pages.github.com/#project-site
+
+https://help.github.com/articles/creating-project-pages-manually/
