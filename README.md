@@ -12,7 +12,6 @@
 
 2, go to your local directory, and clone the repo you just made, using the following command:
 ```
-git init
 git clone http://github.com/yourUserName/reponame.git
 ```
 
